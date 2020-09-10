@@ -10,11 +10,11 @@ htpasswd -c .htpasswd <username>
 ```bash
 $ npm install
 $ npm run build -- --prod
-$ sudo docker build -t gravity-admin .
+$ sudo docker build -t markhaakman/gravity-admin:TAG .
 ```
 
 ## Test locally
 ```bash
-sudo docker run -it -p 80:80 gravity-admin
+sudo docker run -it -p 80:80 markhaakman/gravity-admin:TAG
 ```
 The admin panel is now available at http://localhost
